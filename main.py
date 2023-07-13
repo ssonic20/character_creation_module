@@ -61,7 +61,7 @@ def start_training(char_name: str, char_class: str) -> str:
             print(defence(char_name, char_class))
         if cmd == 'special':
             print(special(char_name, char_class))
-    return 'Тренировка окончена.'
+    return 'Тренировка окончена. '
 
 
 def choice_char_class() -> str:
